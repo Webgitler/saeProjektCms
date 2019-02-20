@@ -1,0 +1,1493 @@
+body {
+padding: 0px;
+margin: 0px;
+}
+
+a:link { text-decoration: none; color: #4c4f4f; }
+a:visited { text-decoration: none; color: #4c4f4f; }
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*grid ausbesserungen*/
+
+.uk-grid {
+  max-width: 900px;
+  margin-top: 0px;
+  margin: auto;
+  margin-top: 0px !important;
+  padding: 0px;
+}
+
+.ukNorm {
+padding: 0px;
+}
+
+/*modul headline*/
+
+.headline {
+  margin-top: 60px;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #d7e4e8;
+  height: 100px;
+}
+
+/* modul brand (css codemarker 000004) )*/
+
+
+.brand {
+  margin-top: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: block;
+  background-color: #aedeef;
+  width: 60px;
+}
+
+/* modul großes titelbild oben (css codemarker 000004) )*/
+
+.login {
+  margin-top: 0px;
+  padding: 12px;
+  box-sizing: border-box;
+  display: block;
+  background-color: #aedeef;
+  width: 100px;
+  height: auto;
+  text-align: center;
+}
+
+/* modul großes titelbild oben (css codemarker 000004) )*/
+
+.downline {
+  margin-top: 0px;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #aedeef;
+  height: 100px;
+}
+
+/* modul großes titelbild oben (css codemarker 000004) )*/
+
+.downlineanzeige {
+  margin-top: 0px;
+  padding: px;
+  box-sizing: border-box;
+  background-color: #d7e4e8;
+  height: 100px;
+}
+
+/* modul großes titelbild oben (css codemarker 000004) )*/
+
+.downlinetitel {
+  position: relative;
+  display: block;
+  margin: auto;
+  padding: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100px;
+}
+
+/* modul großes titelbild oben (css codemarker 000004) )*/
+
+.dokumentation {
+  background-color: #efefef;
+  padding: 12px;
+  box-sizing: border-box;
+  border: px solid #ffaa00;
+}
+
+.dokugrid {
+  background-color: #efefef;
+  padding: 12px;
+  box-sizing: border-box;
+  border: px solid #ffaa00;
+}
+
+.dokufeld {
+  position: relative;
+  float: left;
+  background-color: #efefef;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px #000000;
+  height: auto;
+  width: 97%;
+}
+
+.dokufeldbild {
+  position: relative;
+  display: block;
+  background-color: #efefef;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.dokufeldtext {
+  position: relative;
+  display: block;
+  background-color: #efefef;
+  margin: auto;
+  padding: 12px;
+  font-size: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* modul großes titelbild oben (css codemarker 000004) )*/
+
+.downfeld {
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.downfeldbg {
+
+  position: absolute;
+  background-color: #000000;
+  opacity:0.6;
+  top: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.userlogin {
+  position: relative;
+  display: block;
+  background-image: url("../img/01bg.png");
+  margin: auto;;
+  box-shadow: 0px 0px 12px #000000;
+  box-sizing: border-box;
+  text-align: center;  top: 50%;
+  -webkit-transform: translateY(-50%);
+  width: 230px;
+  height: 336px;
+}
+
+
+.dokuanzeige {
+  width: 100%;
+  height: auto;
+}
+
+
+.dokuanzeigebild {
+  height: 96%;
+  width: auto;
+  margin: auto;
+  position: relative;
+}
+
+.overlayheader {
+  padding: 0%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  color: #7d93a3;
+  border-bottom: 1px solid #7d93a3;
+  font-size: 12px;
+}
+
+.overlayloginabsatz {
+  padding: 1%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  border-bottom: px solid #7d93a3;
+  font-size: 12px;
+  color: #f2f9f9;
+}
+.formlayerlogin {
+  padding: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: transparent;
+  border: 0px solid #ffffff;
+  border-bottom: 1px solid #7d93a3;
+  font-size: 12px;
+  color: #7d93a3;
+}
+.formlayerlogin {
+  padding: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: transparent;
+  border: 0px solid #ffffff;
+  border-bottom: 1px solid #7d93a3;
+  font-size: 12px;
+}
+.loginbutton {
+  padding: 2%;
+  background-color: #7d93a3;
+  border: 1px solid #96add3;
+  font-size: 12px;
+  color: #f2f9f9;
+  margin-top: 36px;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  .img__titel__modul__one {
+    border-top: 2px solid #ffaa00;
+    border-bottom: 2px solid #ffaa00;
+  }
+
+}
+
+
+
+/*modul mobiele anzeige kontakt*/
+
+.imgMobiel {
+  position: relative;
+  border: 1px solid #efefef;
+  padding: 12px;
+}
+.iphone10__mobiel__modul__kontakt {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 21px;
+}
+.email__mobiel__modul__kontakt {
+  position: relative;
+  display: block;
+  margin: auto;
+  padding-top: 6px;
+  width: 34px;
+}
+.uhr__mobiel__modul__kontakt {
+  position: relative;
+  padding-top: px;
+  display: block;
+  margin: auto;
+  width: 34px;
+}
+.ort__mobiel__modul__kontakt {
+  position: relative;
+  padding-top: px;
+  display: block;
+  margin: auto;
+  width: 25px;
+}
+
+
+
+.modulborder01 {
+border-bottom: 1px solid #ffffff;
+}.modulborder02 {
+border-left: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+
+
+/*modul desktop menu oben*/
+
+.menuportModul:hover {
+  border-bottom: 2px solid #ffaa00;
+    background-color: #aedeef;
+    padding: 9px;
+    padding-left: 16px;
+
+}.menuportModul:hover {
+transition: all 0.2s ease-in-out;
+}
+
+
+
+.menuportModul {
+  background-color: #d9d9d9;
+  padding: 0px;
+  padding-left: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 0px;
+  font-weight: bold;
+  height: 0px;
+}.menuportModulrahmen {
+  border-top: 0px solid #ffffff;
+  border-bottom: 0px solid #ffffff;
+  box-sizing: border-box;
+  height: 0px;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .menuportModul {
+    padding: 10px;
+    padding-left: 16px;
+    font-size: 12px;
+    height: auto;
+  }
+
+
+  .menuportModulrahmen {
+    border-top: 0px solid #ffffff;
+    border-bottom: 0px solid #ffffff;
+    height: auto;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .menuportModul {
+    padding: 10px;
+    padding-left: 16px;
+    font-size: 12px;
+    height: auto;
+  }
+
+
+  .menuportModulrahmen {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    height: auto;
+  }
+}
+
+/*modul hauptinformation zur seite oben*/
+
+.topmaincontModul {
+  background-color: transparent;
+  color: #4c4f4f;
+  border-top: 0px solid #ffffff;
+}.topmaincont__Modul__inset__auto {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  font-size: 12px;
+  box-sizing: border-box;
+  height: auto;
+}.topmaincont__Modul__inset__disp {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  height: 100%;
+}.displine {
+  border-left: 1px solid #ffffff;
+}.modulpaddingMaincont {
+  padding: 41px;
+  color: #616366;
+}.topmaincont__Modul__img__rahmen {
+  float: left;
+  width: auto;
+  padding: 0px;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: auto;
+}.topmaincont__Modul__inset__titel {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+  padding-bottom: 6px;
+  padding-left: 26px;
+  line-height: 19px;
+  float: left;
+  font-size: 23px;
+  position: absolute;
+  box-sizing: border-box;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .topmaincontModul {
+    border-top: 0px solid #ffffff;
+  }.topmaincont__Modul__inset__titel {
+    padding-left: 46px;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .topmaincontModul {
+    border-top: 0px solid #ffffff;
+  }.topmaincont__Modul__inset__titel {
+    padding-left: 46px;
+  }
+}
+
+
+/* modul service (css codemarker 000004) */
+
+.modulService {
+border-bottom: 1px solid #ffffff;
+border-top: 1px solid #ffffff;
+padding-bottom: 0px;
+position: relative;
+box-sizing: border-box;
+height: auto;
+
+}
+
+.serviceborder01 {
+border-bottom: 1px solid #ffffff;
+}.serviceborder02 {
+border-left: 1px solid #ffffff;
+border-bottom: 1px solid #ffffff;
+}
+
+.servicefeld {
+padding: 0px;
+font-size: 12px;
+background-color: #f4f2f2;
+box-sizing: border-box;
+position: relative;
+display: block;
+height: auto;
+}.servicefeldinset {
+padding: 0px;
+box-sizing: border-box;
+position: relative;
+display: block;
+height: 96px;
+}.imgService {
+z-index: 60;
+top: 36%;
+-webkit-transform: translateY(-36%);
+margin: auto;
+position: relative;
+display: block;
+height: 60px;
+padding: 0px;
+border-radius: 100%;
+}.imgserviceMiddel {
+height: 84px;
+}.imgserviceAside {
+height: 66px;
+}.servicefeldTitel {
+padding: 10px;
+padding-left: 0px;
+padding-bottom: 10px;
+font-size: 21px;
+position: relative;
+display: block;
+text-align: center;
+background-color: #f4f2f2;
+box-sizing: border-box;
+color: #909296;
+}.servicefeldUndertitel {
+z-index: 20;
+position: relative;
+display: block;
+padding-top: 0px;
+padding-bottom: 10px;
+font-size: 16px;
+box-sizing: border-box;
+text-align: center;
+color: #909296;
+}
+
+
+
+.imgServiceline01 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 4px;
+
+}
+
+.imgServiceline02 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 4px;
+
+}
+
+.imgServiceline {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 4px;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .servicefeld {
+  height: auto;
+  }.imgService {
+  top: 36%;
+  -webkit-transform: translateY(-36%);
+  }.servicefeldTitel {
+  padding: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  }.servicefeldUndertitel {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  }.serviceborder01 {
+  border-bottom: 1px solid #ffffff;
+  }.serviceborder02 {
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  .servicefeld {
+  height: auto;
+  }.imgService {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  }.servicefeldTitel {
+  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  text-align: inherit;
+  }.servicefeldUndertitel {
+  padding-top: px;
+  padding-bottom: 40px;
+  background-color: #f4f2f2;
+  }.serviceborder01 {
+  border-bottom: 0px solid #ffffff;
+  }.serviceborder02 {
+  border-left: 0px solid #ffffff;
+  border-bottom: 0px solid #ffffff;
+  }
+
+
+
+
+  }
+
+  /*modul aktuelle prduckte*/
+
+
+  .modulAktuell {
+  border-bottom: 1px solid #ffffff;
+  border-top: 0px solid #ffffff;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  position: relative;
+  height: auto;
+  }.aktuellfeldTitel {
+  padding: 40px;
+  padding-bottom: 0px;
+  font-size: 21px;
+  box-sizing: border-box;
+  color: #909296;
+  }.aktuellfeldUndertitel {
+  position: relative;
+  padding: 40px;
+  padding-top: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding-left:
+  color: #909296;
+  }.aktuellborder {
+  border-left: 1px solid #ffffff;
+  }.aktuellfeldImgtitel {
+  padding-top: 12px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  width: 100%;
+  font-size: 21px;
+  background-color: #f4f2f2;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ffffff;
+  color: #909296;
+  }.aktuellfeldImgtitel02 {
+  width: 100%;
+  font-size: 12px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: #909296;
+  }.aktuellfeldImgtitelheader {
+  width: 100%;
+  font-size: 12px;
+  padding-top: 4px;
+  box-sizing: border-box;
+  color: #909296;
+  }.imgAktuell {
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ffffff;
+  }.aktuellfeldImgtitel {
+  padding: 20px;
+  padding-bottom: 4px;
+  width: 100%;
+  font-size: 21px;
+  background-color: #f4f2f2;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ffffff;
+  color: #909296;
+  }.aktuellButton {
+  padding: 10px;
+  padding-bottom: px;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  border-bottom: px solid #ffffff;
+  color: #909296;
+  }
+
+  /* modul produckte presentieren 01 (css codemarker 000006) */
+
+  .modulProduckte {
+  border-bottom: px solid #ffffff;
+  border-top: 0px solid #ffffff;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  position: relative;
+  height: auto;
+  }
+
+
+  .modulProduckteframe {
+  position: relative;
+  overflow: hidden;
+  }
+
+
+  .modulProduckteframe {
+  float: left;
+  }
+
+  .modulProducktimg {
+  height: 100%;
+  position: relative;
+  }
+
+
+  .modulProducktcontent {
+  border-bottom: 0px solid #ffffff;
+  border-top: 20px solid #ffffff;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  height: auto;
+  }
+
+  .producktTitel {
+  z-index: 999;
+  padding: 9px;
+  background-color: #ffffff;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  font-size: 16px;
+  border-top: 2px solid #ffaa00;
+  box-sizing: border-box;
+  text-align: center;
+  width: 90%;
+  color: #909296;
+  margin: auto;
+  margin-top: -40px;
+  position: relative;
+  }
+
+  .producktUntertietelitel {
+  padding: 40px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: ;
+  font-size: 12px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #909296;
+  }
+
+  .producktButton:hover {
+    border: 1px solid #ffaa00;
+      background-color: #ffffff;
+      border-left: 4px solid #ffaa00;
+
+  }.producktButton:hover {
+  transition: all 0.4s ease-in-out;
+  }
+
+  .producktButton {
+  padding: 6px;
+  height: auto;
+  width: 160px;
+  font-size: 16px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #909296;
+  color: #909296;
+  }
+
+  .ukImgmodifikation {
+  height: 260px;
+  }.back {
+  z-index: 9;
+  }.front {
+  z-index: 900;
+  }
+
+  .modulborder01 {
+  border-bottom: 1px solid #ffffff;
+  }.modulborder02 {
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    .ukImgmodifikation {
+    height: 260px;
+    }.modulProducktcontent {
+    border-bottom: 1px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: relative;
+    height: auto;
+    }.modulProduckte {
+    border-bottom: px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    position: relative;
+    height: auto;
+    }
+
+    .producktButton {
+    background-color: #ffffff;
+    border: 1px solid #909296;
+    color: #909296;
+    }
+
+    .producktTitel {
+    padding: 90px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: ;
+    font-size: 21px;
+    box-sizing: border-box;
+    color: #909296;
+    }
+
+
+
+
+  }
+
+
+  @media only screen and (min-width: 960px) {
+
+    .ukImgmodifikation {
+    height: auto;
+    }.modulProducktcontent {
+    border-bottom: 1px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    text-align: inherit;
+    background-color: #f4f2f2;
+    position: relative;
+    height: auto;
+    }.modulProduckte {
+    border-bottom: px solid #ffffff;
+    border-top: 0px solid #ffffff;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    position: relative;
+    height: auto;
+    }
+
+    .producktTitel {
+    background-color: #f4f2f2;
+    text-align: inherit;
+    border-top: 0px solid #ffaa00;
+    width: 100%;
+    padding: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 0px;
+    font-size: 21px;
+    box-sizing: border-box;
+    color: #909296;
+    }
+
+    .producktUntertietelitel {
+    padding: 90px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-left: 40px;
+    font-size: 12px;
+    text-align: inherit;
+    box-sizing: border-box;
+    color: #909296;
+    }
+
+    .producktButton {
+    padding: 6px;
+    height: auto;
+    width: 160px;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #f4f2f2;
+    box-sizing: border-box;
+    border: 1px solid #909296;
+    color: #909296;
+    }
+  }
+
+
+
+  /* modul produckte presentieren 01 (css codemarker 000006) */
+
+  .modulshow {
+  border-bottom: px solid #ffaa00;
+  border-top: 1px solid #ffffff;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  position: relative;
+  height: auto;
+  }
+
+  .modulShowtitel {
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 19px;
+  box-sizing: border-box;
+  color: #909296;
+  position: relative;
+  height: auto;
+  }
+
+  .modulShowcontent {
+  padding: 40px;
+  padding-top: 0px;
+  font-size: 12px;
+  box-sizing: border-box;
+  color: #909296;
+  position: relative;
+  height: auto;
+  }
+
+
+  .modulProduckteframe {
+  position: relative;
+  overflow: hidden;
+  }
+
+  .modulShowborder01 {
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+
+  }.modulShowborder02 {
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  }.modulShowborder {
+  border-left: 1px solid #ffffff;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+
+  }
+
+
+  @media only screen and (min-width: 960px) {
+
+
+  }
+
+
+
+
+    /* modul 01 erweiterte anzeige im bild (css codemarker 000006) */
+
+    .modulinset {
+    border-radius: 90% 90% 90% 90%;
+    position: absolute;
+    background-color: #fafafa;
+    height: 525px;
+    width: 625px;
+    margin-top: 5px;
+    margin-left: -45px;
+    }
+
+    .modulinsetcover {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    top: -465px;
+    }
+
+
+
+  /* modul soziale media  01 (css codemarker 000006) */
+
+  .modulmedia {
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #efefef;
+  position: relative;
+  height: auto;
+  }
+
+  .modulmediaausrichtung {
+  position: relative;
+  padding-left: 65px;
+  }
+
+  .modulMediatitel {
+  padding: 0px;
+  padding-top: px;
+  padding-bottom: 20px;
+  font-size: 21px;
+  box-sizing: border-box;
+  color: #606060;
+  position: relative;
+  height: auto;
+  }
+
+  .modulMediaimg {
+  padding: 10px;
+  width: 90%;
+  box-sizing: border-box;
+  }
+
+  .modulMediacontent {
+  padding: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  font-size: 12px;
+  box-sizing: border-box;
+  color: #606060;
+  position: relative;
+  height: auto;
+  }
+
+  .mediacontent {
+  box-sizing: border-box;
+  position: relative;
+  height: 265px;
+  width: 265px;
+  }
+
+  .mediaImgmodul {
+  box-sizing: border-box;
+  z-index: 16px;
+  display: block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  margin: auto;
+  display: block;
+  height: 165px;
+  width: 165px;
+
+  }
+
+
+
+
+  .sozialmediablock {
+  box-sizing: border-box;
+  border: px solid #999;
+  margin-top: -5px;
+  margin-left: -5px;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: #;
+  height: 62px;
+  width: 62px;
+  }
+  .sozialmedia01 {
+  box-sizing: border-box;
+  background-image: url("../img/sozimedi.png");
+  position: absolute;
+  background-color: #ffffff;
+  display: block;
+  z-index: 999;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 226px;
+  width: 226px;
+  }
+  .mediaimgposi01 {
+  margin-top: -7px;
+  margin-left: -9px;
+  }
+  .mediaimgposi02 {
+  margin-top: -7px;
+  margin-left: -90px;
+  }
+  .mediaimgposi03 {
+  margin-top: -82px;
+  margin-left: -10px;
+  }
+  .mediaimgposi04 {
+  margin-top: -157px;
+  margin-left: -9px;
+  }
+  .mediaposi01 {
+  margin-left: px;
+  margin-top: px;
+  }
+  .mediaposi02 {
+  margin-left: 109px;
+  }
+  .mediaposi03 {
+  margin-left: px;
+  margin-top: 106px;
+  }
+  .mediaposi04 {
+  margin-left: 109px;
+  margin-top: 106px;
+  }
+
+  .mediaImgmodule {
+  box-sizing: border-box;
+  z-index: 26px;
+  display: block;
+  position: relative;
+  border: 42px solid #ffffff;
+  border-radius: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  margin: auto;
+  display: block;
+  height: 165px;
+  width: 165px;
+
+  }
+
+
+
+
+
+  /* modul produckte presentieren 100prozent (css codemarker 000006) */
+
+  .modulganzebildbreite {
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  position: relative;
+  height: auto;
+  }
+
+  .modulPickture {
+  background-color: #fafafa;
+  }
+
+
+
+  .modulPickturetitel {
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  }
+
+  .modulHprozent {
+    padding-top: 69px;
+  }
+
+  .prozentbutton {
+    margin-top: 60px;
+  }
+
+  .prozenttitel {
+    width: 84%;
+    padding-bottom: 40px;
+    background-color: #fafafa;
+    position: relative;
+  }
+
+  .modulPicktureline {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    background-color: #909296;
+    margin-top: -6px;
+    margin-left: 150px;
+  }
+
+  .modulPicktureline2 {
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    background-color: #909296;
+    margin-top: -6px;
+    margin-left: 150px;
+  }
+
+
+  .modulHproducktcontent {
+  border-bottom: 1px solid #ffffff;
+  border-top: 0px solid #ffffff;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  text-align: inherit;
+  background-color: #909296;
+  position: relative;
+  height: auto;
+  }
+
+  .producktHtitel {
+  text-align: inherit;
+  border-top: 0px solid #ffaa00;
+  width: 100%;
+  padding: 90px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-top: 0px;
+  font-size: 21px;
+  box-sizing: border-box;
+  color: #909296;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+
+    .producktHtitel {
+    text-align: inherit;
+    border-top: 0px solid #ffaa00;
+    width: 100%;
+    padding: 90px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 0px;
+    font-size: 21px;
+    box-sizing: border-box;
+    color: #909296;
+    }
+
+    .modulPicktureline {
+      width: 0px;
+      height: 1px;
+      position: absolute;
+      background-color: #909296;
+      margin-top: -6px;
+      margin-left: 150px;
+    }
+
+    .modulPickturetitel {
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    }
+
+    .prozenttitel {
+      width: 84%;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 960px) {
+
+
+
+
+
+    .modulPicktureline2 {
+      width: 100%;
+      height: 1px;
+      margin: 50px;
+      position: relative;
+      background-color: #909296;
+    }
+
+
+        .modulPicktureline {
+        width: 490px;
+        height: 1px;
+        position: absolute;
+        background-color: #909296;
+        margin-top: -6px;
+        margin-left: 150px;
+        }
+
+
+        .producktHtitel {
+        text-align: inherit;
+        border-top: 0px solid #ffaa00;
+        width: 100%;
+        padding: 90px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 40px;
+        margin-top: 0px;
+        font-size: 21px;
+        box-sizing: border-box;
+        color: #909296;
+        }
+
+        .modulPickturetitel {
+        padding: 0px;
+        box-sizing: border-box;
+        position: relative;
+        }
+
+        .prozenttitel {
+          width: 100%;
+        }
+
+  }
+
+
+
+  /* modul footer (css codemarker 000006) */
+
+
+
+  .modulFooter {
+  border-bottom: 0px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  box-sizing: border-box;
+  background-color: #;
+  position: relative;
+  height: auto;
+  }.modulFooternav {
+  border-bottom: 0px solid #ffffff;
+  border-top: 0px solid #ffffff;
+  background-color: #b7b7b7;
+  color: #ffffff;
+  }.modulFooterback {
+  box-sizing: border-box;
+  background-color: #b7b7b7;
+  color: #ffffff;
+  position: relative;
+  height: auto;
+  }.modulFooterbackcontent {
+  box-sizing: border-box;
+  background-color: #b7b7b7;
+  font-size: 16px;
+  top: 0px;
+  float: left;
+  height: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  color: #ffffff;
+  margin-left: 10px;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  }.modulFooterbackcontentanzeige {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 0px;
+  height: 100%;
+  width: 40px;
+  padding-left: 0px;
+  margin-left: 20px;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  }
+
+  .footeraside {
+  border-left: 10px solid #b7b7b7;
+  }
+
+  .footerasideline {
+  border: 1px solid #ffffff;
+  }
+
+  .footercontentline {
+  width: 76%;
+  padding: 0px;
+  background-color: #b7b7b7;
+  height: 2px;
+  position: relative;
+  margin: auto;
+  }
+
+  .modulFooterfontcontentabsatz {
+  box-sizing: border-box;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #b7b7b7;
+  position: relative;
+  display: inline-block;
+  }
+
+  .footerasidecolor {
+  background-color: #fafafa;
+  }.modulFooternavside {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 0px;
+  height: 25%;
+  width: 100%;
+  color: #ffffff;
+  position: relative;
+  }.modulFooternavside60 {
+  box-sizing: border-box;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  height: 100%;
+  width: 73%;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  }.navside60 {
+  padding: 20px;
+  }.modulFooternavside40 {
+  box-sizing: border-box;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  height: 100%;
+  width: 25%;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  }.modulseidanpassung {
+  box-sizing: border-box;
+  font-size: 16px;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  }
+
+  .footerasidecolornavside01 {
+  background-color: #3f7de2;
+  }
+
+  .footerasidecolornavside02 {
+  background-color: #cc3f2a;
+  }
+
+  .footerasidecolornavside03 {
+  background-color: #b7b7b7;
+  }
+
+  .footerline01 {
+  border-left: 1px solid #ffffff;
+  }
+
+  .footerline {
+    border-top: 1px solid #ffffff;
+  }
+
+
+  /* modul partner (css codemarker 000006) */
+
+
+
+  .modulPartner {
+  border-bottom: 0px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  box-sizing: border-box;
+  position: relative;
+  height: auto;
+  }.partnerTitel {
+  font-size: 21px;
+  background-color: #f4f2f2;
+  box-sizing: border-box;
+  width: 100%;
+  }.partnerUndertitel {
+  font-size: 12px;
+  background-color: #f4f2f2;
+  box-sizing: border-box;
+  width: 100%;
+  }.partnerfeld {
+  background-color: #f4f2f2;
+  float: left;
+  box-sizing: border-box;
+  padding: 16px;
+  }.partnerContainer {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: 12px;
+  background-color: #ffffff;
+  }.partnerline {
+  border-left: 4px solid #f4f2f2;
+  }.partnerContainerbutton {
+  height: auto;
+  padding: 12px;
+  background-color: #f4f2f2;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  }.partnerbutton {
+  height: auto;
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+  position: relative;
+  background-color: #fafafa;
+  width: 162px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  }.partnerpic {
+  height: 62px;
+  font-size: 16px;
+  position: relative;
+  display: block;
+  margin: auto;
+  }
